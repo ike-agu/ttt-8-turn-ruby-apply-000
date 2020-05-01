@@ -12,16 +12,19 @@ end
 
 
 
-def input_to_index (number)
+def input_to_index(number)
 
  number.to_i-1
 
 end 
 
 
-def valid_move? (board, index)
-
-valid_move = board[index]
+def valid_move?(board, index)
+  if !board[index] && (0..8).to_a.include?(index)
+    true 
+  else 
+    false 
+  end 
 end 
 
 
