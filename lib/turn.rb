@@ -40,5 +40,9 @@ def move(board,input_to_index,move="X")
       
       if valid_move?(board, index_converted)
          move(board,index_converted)
-   
+        display_board(board)
+        
+      else 
+        
+      end 
 end
