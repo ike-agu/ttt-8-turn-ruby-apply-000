@@ -39,6 +39,6 @@ def move(board,input_to_index,move="X")
         index_converted = input_to_index(user_input)
       
       if valid_move?(board, index_converted)
-        
+         move(board,index_converted)
    
 end
