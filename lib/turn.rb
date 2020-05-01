@@ -21,8 +21,11 @@ end
 
 def valid_move? (board, index)
 
-valid_move= board[index] 
-
+if board[index] = 0 
+puts "true"
+else 
+  puts "false" 
+end 
 end 
 
 
@@ -35,5 +38,5 @@ def move(board,input_to_index,move="X")
  
  def turn(board)
   puts "Please enter 1-9:"
-  1
+  user_input = gets.chomp
 end
