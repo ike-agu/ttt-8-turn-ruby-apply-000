@@ -16,12 +16,12 @@ def input_to_index (number)
 
  number.to_i-1
 
-
 end 
+
 
 def valid_move (board, index)
 
-if board[index] == 0 
+if board[index] = 0 
 puts "true"
 else 
   puts "false" 
