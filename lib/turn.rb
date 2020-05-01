@@ -19,7 +19,10 @@ def input_to_index (number)
 
 end 
 
+def valid_move (board, index)
 
+
+end 
 
 
 def move(board,input_to_index,move="X")
