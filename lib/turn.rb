@@ -34,3 +34,8 @@ def move(board,input_to_index,move="X")
   board[input_to_index] = move
   board
  end 
+ 
+ 
+ def turn 
+   
+ end 
