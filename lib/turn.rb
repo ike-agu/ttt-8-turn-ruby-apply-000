@@ -21,7 +21,11 @@ end
 
 def valid_move (board, index)
 
-
+if board[index] == 0 
+puts "true"
+else 
+  puts "false" 
+end 
 end 
 
 
