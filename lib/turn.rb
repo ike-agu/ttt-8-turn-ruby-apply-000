@@ -21,7 +21,7 @@ end
 
 def valid_move? (board, index)
 
-valid_move? = board[index]
+valid_move = board[index]
 end 
 
 
