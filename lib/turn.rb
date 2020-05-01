@@ -38,5 +38,7 @@ def move(board,input_to_index,move="X")
        user_input = gets.chomp
         index_converted = input_to_index(user_input)
       
+      if valid_move?(board, index_converted)
+        
    
 end
