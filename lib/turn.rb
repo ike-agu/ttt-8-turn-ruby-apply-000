@@ -43,6 +43,6 @@ def move(board,input_to_index,move="X")
         display_board(board)
         
       else 
-        
+        turn(board)
       end 
 end
