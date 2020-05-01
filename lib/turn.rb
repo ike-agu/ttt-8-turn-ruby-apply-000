@@ -20,7 +20,7 @@ end
 
 
 def valid_move?(board, index)
-  if board[index]==" " && (0..8).to_a.include?(index)
+  if board[index]==" " && index.between?(0,8)
     true 
   else 
     false 
