@@ -21,11 +21,7 @@ end
 
 def valid_move? (board, index)
 
-if valid_move? == board[index]
-puts true 
-else 
-  false 
-end 
+valid_move? = board[index]
 end 
 
 
